@@ -1,0 +1,12 @@
+<template name="flip">
+	<view class="flip down {{isFlip ? 'go' : ''}}">
+		<view class="front page number1">
+			<view class="num num-top">{{number0}}</view>
+			<view class="num num-bottom">{{number0}}</view>
+		</view>
+		<view class="back page number2">
+			<view class="num num-top">{{number1}}</view>
+			<view class="num num-bottom">{{number1}}</view>
+		</view>
+	</view>
+</template>
