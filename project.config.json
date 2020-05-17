@@ -18,7 +18,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.11.0",
 	"appid": "wx3b36373d37984f90",
-	"projectname": "flipclock",
+	"projectname": "justClock",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<import src="../flip/index.wxml"/>
+<import src="./flip.wxml"/>
 <view class="container">
 	<template is="flip" data="{{...hour}}"/>
 	<template is="flip" data="{{...min}}"/>
