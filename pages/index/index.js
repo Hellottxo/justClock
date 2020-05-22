@@ -76,5 +76,11 @@ Page({
       }
     })
     this.timeListener();
+  },
+  onShareAppMessage: function() {
+    return {
+      title: 'onlyClock | 翻页时钟',
+      path: '/pages/index/index',
+    }
   }
 })
